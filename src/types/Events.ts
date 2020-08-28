@@ -42,6 +42,7 @@ export interface TextMessage {
 export interface ClientMoved {
   client: TeamSpeakClient
   channel: TeamSpeakChannel
+  invoker: TeamSpeakClient
   reasonid: ReasonIdentifier
 }
 
